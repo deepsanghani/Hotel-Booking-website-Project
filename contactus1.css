@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  
+  
+  
+  
+  ul{
+     float: right;
+     list-style-type: none;
+     margin-top: 25px;
+     margin-right: 2%;
+  }
+  
+  ul li{
+     display: inline-block;
+  
+  }
+  
+  ul li a{
+     text-decoration: none;
+     font-weight: 600;
+     color: blue;
+     padding: 5px 40px;
+     border: 2px solid black;
+  }
+  
+  ul li a:hover{
+     background-color: whitesmoke;
+     color: red;
+     padding: 5px 40px;
+     border: 2px solid black;
+     transition: 0.6s ease;
+  }
+  
+  .logo{
+     float:left;
+     padding-top: 5%;
+     color: crimson;
+     margin-top: 5px;
+     margin-left: 2%;
+     padding: 1% 1% 1% 1%;
+  }
+  
+  .logo img{
+    float:left;
+    width: 60px;
+    height:60px;
+  }
+  
+  
+  .fa-instagram {
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:inline-block;
+    list-style-type:none;
+    
+  }
+  
+  .fa-facebook {
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:inline-block;
+    list-style-type:none;
+    
+  }
+
+  #box2 { 
+    flex-grow: 1; 
+    background-color: white;
+    } 
+
+    .box-wrapper { 
+        height: 100vh; 
+        width: 100vw; 
+        display: flex; 
+        flex-direction: column; 
+        }
+
+        /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .card4 {
+        background-color: white;
+        padding-left: 3px;
+    padding-top: 0.05px;
+        }
+
+        .card3 {
+            padding: 0px 0px;
+            background-color: white;
+            padding-left: 3px;
+            padding-top: 0.05px;
+            }
+
+
+            .row3{
+                float: left;
+                width: 70%;
+                height: 100%;
+                padding: 0 0px;
+                padding-left: 3%;
+                padding-top: 2%;
+                padding-bottom: 1%;
+                background-color: white;
+                }
+            
+                .row4{
+                    float: left;
+                    width: 20%;
+                    height: 100%;
+                    padding: 0 0px;
+                    padding-left: 0%;
+                    padding-top: 2%;
+                    padding-bottom: 1%;
+                    background-color: white;
+                    }
+
+
+                    .form-info{
+                        text-indent: 3mm; 
+                      }
+                      
+                      input[type=text], select {
+                        width: 40%;
+                        padding: 12px 20px;
+                        margin: 8px 5px;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                      }
+                      
+                      input[type=textarea], select {
+                        width: 82%;
+                        padding: 12px 20px;
+                        margin: 8px 5px;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                      }
+                      
+                      input[type=submit] {
+                        width: 20%;
+                        background-color: darkblue;
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 4px 4px;
+                        border: 3px solid darkblue;
+                        border-radius: 4px;
+                        cursor: pointer;
+                      }
+                      
+                      input[type=submit]:hover {
+                           transition: 0.6s ease;
+                      }
+                      
+                    
+                      .fa-map-marker {
+                        font-size: 10%;
+                        color: darkgoldenrod;
+                        display: inline-block;
+                        list-style-type:none;
+                        
+                    }
+                    
+                    .fa-envelope{
+                        color: darkgoldenrod;
+                        display: inline-block;
+                        list-style-type:none;
+                    }
+                    
+                    .fa-phone{
+                        color: darkgoldenrod;
+                        display: inline-block;
+                        list-style-type:none;
+                    }
+
+                    .column {
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 10px;
+                        }
+                        
+                        /* Remove extra left and right margins, due to padding */
+                        .row {margin: 0 -5px;}
+
+                        .row3 h3::after   {  background-color: #e79700;  content: "";  display: block;  height: 3px;  width: 8%;}
+
+.row4 h3::after   {  background-color: #e79700;  content: "";  display: block;  height: 3px;  width: 15%;}
+
+.row1{
+    float: left;
+width: 52.5%;
+height: 100%;
+padding: 2 0px;
+padding-left: 4%;
+padding-top: 4%;
+padding-bottom: 4%;
+background-color: darkgoldenrod;
+}
+
+.row2{
+    float: left;
+    width: 34.8%;
+    height: 100%;
+    padding: 0 0px;
+    padding-left: 2%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    }
+
+    
+
+text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    }
+
+    .card1 {
+        padding: 0px 0px;
+        background-color: white;
+        padding-left: 3px;
+        padding-top:5px;
+        padding-right: 3px;
+        }
+    
+    .card2 {
+            padding: 0px 0px;
+            background-color: darkblue;
+            
+            }
+
+            #box1 { 
+                flex-grow: 1; 
+                background-color: darkgoldenrod;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                
+                
+                } 
+
+                
+
+
+                .card5 {
+                  padding: 0px 0px;
+                  background-color: transparent;
+                  padding-left: 3px;
+                  padding-top: 0.05px;
+                  }
+              
+              .card6 {
+                      padding: 0px 0px;
+                      background-color: transparent;
+                      }
+              
+                   
+                      .card8 {
+                              background-color: transparent;
+                              padding-left: 3px;
+                          padding-top: 0.05px;
+                              }
+              
+              
+                              .row5{
+                                float: left;
+                            width: 29%;
+                            height: 100%;
+                            padding: 0 0px;
+                            padding-left: 4%;
+                            padding-top: 4%;
+                            padding-bottom: 4%;
+                            background-color: transparent;
+                            }
+                            
+                            .row6{
+                                float: left;
+                                width: 29%;
+                                height: 100%;
+                                padding: 0 0px;
+                                padding-left: 4%;
+                                padding-top: 4%;
+                                padding-bottom: 4%;
+                                background-color: transparent;
+                                }
+                            
+                            
+                                .row8{
+                                    float: left;
+                                    width: 29%;
+                                    height: 100%;
+                                    padding: 0 0px;
+                                    padding-left: 4%;
+                                    padding-top: 4%;
+                                    padding-bottom: 4%;
+                                    background-color: transparent;
+                                    }
+              
+                                    #box3 { 
+                                      flex-grow: 1; 
+                                      background-color: darkblue;
+                                      padding-bottom: 2%;
+                                      padding-top: 2%;
+                                      
+                                      } 
+              
+                                      .arrow {
+                                        border: solid yellow;
+                                        border-width: 0 3px 3px 0;
+                                        display: inline-block;
+                                        padding: 3px;
+                                      }
+                                      
+                                      .right {
+                                        transform: rotate(-45deg);
+                                        -webkit-transform: rotate(-45deg);
+                                      }
+              
+                                       .row8 .img{
+                                         padding-left: 20%;
+                                      }
+
+                                      .errorMessage {
+                                        background-color: #e66262;
+                                        border: #AA4502 1px solid;
+                                        padding: 5px 10px;
+                                        color: #FFFFFF;
+                                        border-radius: 3px;
+                                    }
+                                    
+                                    .successMessage {
+                                        background-color: #9fd2a1;
+                                        border: #91bf93 1px solid;
+                                        padding: 5px 10px;
+                                        color: #3d503d;
+                                        border-radius: 3px;
+                                        cursor: pointer;
+                                        font-size: 0.9em;
+                                    }
+                                    
+                                    .info {
+                                        font-size: .8em;
+                                        color: #e66262;
+                                        letter-spacing: 2px;
+                                        padding-left: 5px;
+                                    }
+              

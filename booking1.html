@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hotel Booking
+       </title>
+       <link rel="stylesheet" type="text/css" href="booking1.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="../lib/w3.css">
+       <SCRIPT>
+
+        function message() {
+        
+        var s = document.getElementById("roomtype");
+        var roomtype = s.options[s.selectedIndex].value;
+        
+        if (roomtype === "LuxuryRooms") {
+          document.getElementById("demo").innerHTML = "Your Total: ₹8000 / Night";
+        }
+        else if (roomtype === "LuxuryGrandeRoomSeaView") {
+          document.getElementById("demo").innerHTML = "Your Total: ₹12000 / Night";
+        }
+        else if (roomtype === "ExecutiveBedroomCityView") {
+          document.getElementById("demo").innerHTML = "Your Total: ₹11500 / Night";
+        }
+        
+        else if (roomtype === "StandardBedroomCityView") {
+          document.getElementById("demo").innerHTML = "Your Total: ₹7000 / Night";
+        }
+      
+      $(document).ready(function(){
+    $("#up").on('click',function(){
+        $("#incdec input").val(parseInt($("#incdec input").val())+1);
+    });
+
+    $("#down").on('click',function(){
+        $("#incdec input").val(parseInt($("#incdec input").val())-1);
+    });
+
+});
+        }
+        
+        </SCRIPT>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="main" >
+              <div class="container">
+                <div class="toppane">
+                
+    
+                <div class="logo">
+                    <img src="logo.jpg">&nbsp; &nbsp; <b style="font-size: 50px; color: crimson;">DNA Hotel</b>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    
+                
+             <div class="fa">
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/dna_hotels/" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/dnahotels" class="fa fa-facebook"></a>
+
+                    
+                </ul>
+                </div>
+                
+                </div>
+                
+              </div>
+            </div>
+            
+        </header>
+        
+        <br><br>
+        <div class="box-wrapper"> 
+          <div id="box2"> 
+            <div class="row">
+                <div class="row3">
+                  <div class="card3">
+                    <h3 style="color: darkblue; font-size: xx-large;">Rooms Booking<br></h3>
+                    <div>
+                        <form action="#">
+                          <label for="fname"></label>
+                          <input type="text" id="fname" name="firstname" placeholder="Name *">
+                      
+                          <label for="email"></label>
+                          <input type="text" id="email" name="email" placeholder="Email *">
+
+                          <label for="subject"></label>
+                          <input type="text" id="mobileno" name="mobileno" placeholder="Mobile Number*">
+
+                          <select style="width: 40%;">
+                            <option value="" disabled selected>Select your Location</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="goa">Goa</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="bangalore">Bangalore</option>
+                        </select>
+                          </select>
+                          
+                            <label for="message"></label>
+                            <input type="textarea" id="address" name="address" placeholder="Write Your Address *" style="height:200px"></textarea>
+                            <p>
+                            <select id="roomtype" name="Room Type"style="width: 40%;">
+                              <option value="" disabled selected>Select your Room type</option>
+                              <option value="LuxuryRooms">Luxury Rooms</option>
+                              <option value="LuxuryGrandeRoomSeaView">Luxury Grande Room Sea View</option>
+                              <option value="ExecutiveBedroomCityView">Executive Bedroom City View</option>
+                              <option value="StandardBedroomCityView">Standard Bedroom City View</option>
+                          </select>
+                          
+                            &emsp;<label for="quantity">Number of People&nbsp;</label>
+                            <input type="number" id="quantity" name="quantity" min="1" max="20" style="padding: 4px 4px 4px 4px;"><br>
+                          &nbsp;&nbsp;&nbsp;<button onclick="message()" style="padding: 10px 10px 10px 10px; background-color: whitesmoke;color: blue; font-weight: 200;"><b>Check Price</b>
+                          </button>
+                          <p id="demo">
+                            
+                          </p>
+
+                          <br>
+                          Upload PDF file of Your ID-proof:&nbsp;&nbsp;&nbsp;
+                          <input type="file" id="myFile" name="filename">
+                            
+                         <br><br>
+                          <input type="submit" value="Book" >
+                        
+                              </p>
+                              </form>
+
+                  </div>
+                </div>
+                </div>
+                
+                <div class="row2">
+                     
+                  <div class="card2">
+                      <p style="font-size: xx-large; color: whitesmoke; text-align: center; padding-top: 22%; padding-bottom: 13.7%;">
+                        If you want to book your website then you need to Google Pay / Amazon Pay / UPI / Paytm to 123456789.<br>
+                        <a href="https://paytm.com/"><img src="https://img.icons8.com/color/96/000000/paytm.png"/></a>&emsp;
+                        <a href="https://pay.google.com/"><img src="googlepay.png" style="height: 100px; width: 100px;"/></a>&emsp;
+                        <a href="https://www.bhimupi.org.in/"><img src="upi.png" style="height: 100px; width: 100px;"/></a>&emsp;
+                        <a href="https://www.amazon.in/gp/sva/dashboard"><img src="amazonpay.jpg" style="height: 100px; width: 100px;"/></a>&emsp;
+                      <br><br></p>
+                      
+                      </div>
+                          </div>        
+          
+                </div>
+            </div>
+          </div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+  </body>
+</html>          
